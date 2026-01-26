@@ -18,7 +18,7 @@
 'use client';
 
 import { useEffect, useState, useRef } from 'react';
-import { useAnimation, AnimationControls } from 'framer-motion';
+import { useAnimation } from 'framer-motion';
 
 export interface AnimationConfig {
   threshold?: number; // 0-1, percentage of element visible to trigger
@@ -28,9 +28,9 @@ export interface AnimationConfig {
 }
 
 export interface ScrollAnimationReturn {
-  ref: React.RefObject<HTMLElement>;
+  ref: React.RefObject<HTMLElement | null>;
   isVisible: boolean;
-  controls: AnimationControls;
+  controls: ReturnType<typeof useAnimation>;
 }
 
 /**

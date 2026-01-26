@@ -37,10 +37,16 @@ export default function ContactPage() {
                 Need help with GymFlow? Have a bug to report or feature request?
               </p>
               <a 
-                href="mailto:support@ragspro.com"
+                href="mailto:ragsproai@gmail.com"
                 className="text-blue-400 hover:text-blue-300 font-semibold"
               >
-                support@ragspro.com
+                ragsproai@gmail.com
+              </a>
+              <a 
+                href="tel:+918826073013"
+                className="text-blue-400 hover:text-blue-300 font-semibold block mt-2"
+              >
+                +91 88260 73013
               </a>
             </div>
 
@@ -52,10 +58,16 @@ export default function ContactPage() {
                 Interested in partnerships, sponsorships, or collaborations?
               </p>
               <a 
-                href="mailto:business@ragspro.com"
+                href="mailto:ragsproai@gmail.com"
                 className="text-blue-400 hover:text-blue-300 font-semibold"
               >
-                business@ragspro.com
+                ragsproai@gmail.com
+              </a>
+              <a 
+                href="tel:+918826073013"
+                className="text-blue-400 hover:text-blue-300 font-semibold block mt-2"
+              >
+                +91 88260 73013
               </a>
             </div>
 
@@ -67,10 +79,16 @@ export default function ContactPage() {
                 Want an app like GymFlow? RagsPro builds premium mobile and web apps.
               </p>
               <a 
-                href="mailto:hello@ragspro.com"
+                href="mailto:ragsproai@gmail.com"
                 className="text-blue-400 hover:text-blue-300 font-semibold"
               >
-                hello@ragspro.com
+                ragsproai@gmail.com
+              </a>
+              <a 
+                href="tel:+918826073013"
+                className="text-blue-400 hover:text-blue-300 font-semibold block mt-2"
+              >
+                +91 88260 73013
               </a>
             </div>
 
@@ -136,8 +154,8 @@ export default function ContactPage() {
                 variant="primary"
               />
               <CTAButton
-                label="Schedule a Call"
-                href="mailto:hello@ragspro.com"
+                label="Email Us"
+                href="mailto:ragsproai@gmail.com"
                 variant="secondary"
               />
             </div>

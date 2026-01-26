@@ -352,22 +352,423 @@ Building GymFlow taught us that great apps come from understanding real problems
   },
 ];
 
-// Add 12 more blog posts...
 export const additionalBlogs: BlogPost[] = [
   {
     id: "4",
-    slug: "gen-z-fitness-trends-2025",
-    title: "Gen-Z Fitness Trends 2025: Why Traditional Gyms Are Losing to Apps",
-    excerpt: "Gen-Z is ditching traditional gyms for app-based fitness. Discover why and how apps like GymFlow are winning the fitness revolution.",
-    content: "Full content here...",
+    slug: "push-pull-legs-split-guide",
+    title: "Push Pull Legs Split: The Ultimate Workout Routine for Muscle Growth",
+    excerpt: "Master the Push Pull Legs split—one of the most effective workout routines for building muscle. Complete guide with exercises, sets, and progression tips.",
+    content: `
+The Push Pull Legs (PPL) split is one of the most popular and effective workout routines for building muscle and strength. Whether you're a beginner or advanced lifter, PPL can be adapted to your goals.
+
+## What is Push Pull Legs?
+
+PPL divides your training into three distinct workout types:
+
+### Push Day (Chest, Shoulders, Triceps)
+Focus on pushing movements that work your chest, shoulders, and triceps.
+
+**Key Exercises:**
+- Bench Press (Flat, Incline, Decline)
+- Overhead Press (Barbell or Dumbbell)
+- Dips
+- Lateral Raises
+- Tricep Extensions
+- Cable Flyes
+
+### Pull Day (Back, Biceps)
+Focus on pulling movements that target your back and biceps.
+
+**Key Exercises:**
+- Deadlifts
+- Pull-ups / Chin-ups
+- Barbell Rows
+- Lat Pulldowns
+- Face Pulls
+- Bicep Curls (Barbell, Dumbbell, Cable)
+
+### Legs Day (Quads, Hamstrings, Glutes, Calves)
+Dedicated leg training for lower body development.
+
+**Key Exercises:**
+- Squats (Back Squat, Front Squat)
+- Romanian Deadlifts
+- Leg Press
+- Lunges
+- Leg Curls
+- Calf Raises
+
+## Why PPL Works
+
+### 1. Optimal Training Frequency
+Each muscle group is trained 2x per week (if running PPL twice weekly), which is ideal for muscle growth.
+
+### 2. Adequate Recovery
+Muscle groups get 48-72 hours rest between sessions, allowing proper recovery.
+
+### 3. Balanced Development
+Equal focus on pushing, pulling, and leg movements prevents muscle imbalances.
+
+### 4. Flexibility
+Can be run 3x, 4x, 5x, or 6x per week depending on your schedule and recovery ability.
+
+## PPL Workout Schedule Options
+
+### 3-Day PPL (Beginner)
+- Monday: Push
+- Wednesday: Pull
+- Friday: Legs
+- Weekend: Rest
+
+### 6-Day PPL (Advanced)
+- Monday: Push
+- Tuesday: Pull
+- Wednesday: Legs
+- Thursday: Push
+- Friday: Pull
+- Saturday: Legs
+- Sunday: Rest
+
+### 4-Day PPL (Intermediate)
+- Monday: Push
+- Tuesday: Pull
+- Thursday: Legs
+- Friday: Push
+- Weekend: Rest
+
+## Sample Push Day Workout
+
+1. **Bench Press**: 4 sets x 6-8 reps
+2. **Incline Dumbbell Press**: 3 sets x 8-10 reps
+3. **Overhead Press**: 3 sets x 8-10 reps
+4. **Lateral Raises**: 3 sets x 12-15 reps
+5. **Tricep Dips**: 3 sets x 8-12 reps
+6. **Cable Tricep Extensions**: 3 sets x 12-15 reps
+
+## Sample Pull Day Workout
+
+1. **Deadlifts**: 4 sets x 5-6 reps
+2. **Pull-ups**: 3 sets x 8-12 reps
+3. **Barbell Rows**: 3 sets x 8-10 reps
+4. **Lat Pulldowns**: 3 sets x 10-12 reps
+5. **Face Pulls**: 3 sets x 15-20 reps
+6. **Barbell Curls**: 3 sets x 8-12 reps
+7. **Hammer Curls**: 3 sets x 10-12 reps
+
+## Sample Legs Day Workout
+
+1. **Back Squats**: 4 sets x 6-8 reps
+2. **Romanian Deadlifts**: 3 sets x 8-10 reps
+3. **Leg Press**: 3 sets x 10-12 reps
+4. **Walking Lunges**: 3 sets x 12 reps per leg
+5. **Leg Curls**: 3 sets x 12-15 reps
+6. **Calf Raises**: 4 sets x 15-20 reps
+
+## Progressive Overload
+
+To keep making gains, you need progressive overload:
+
+### Methods:
+1. **Increase Weight**: Add 2.5-5kg when you hit the top of your rep range
+2. **Increase Reps**: Add 1-2 reps per set before increasing weight
+3. **Increase Sets**: Add an extra set to key exercises
+4. **Improve Form**: Better technique = better muscle activation
+5. **Reduce Rest Time**: Shorter rest periods increase intensity
+
+## Common PPL Mistakes
+
+### 1. Too Much Volume
+More isn't always better. Start with 12-16 sets per muscle group per week.
+
+### 2. Neglecting Legs
+Don't skip leg day. Lower body training is crucial for overall development.
+
+### 3. Poor Exercise Selection
+Focus on compound movements first, then add isolation exercises.
+
+### 4. Inconsistent Training
+Consistency beats perfection. Stick to your schedule.
+
+### 5. Ignoring Recovery
+Sleep, nutrition, and rest days are when you actually grow.
+
+## PPL for Different Goals
+
+### Muscle Building (Hypertrophy)
+- 8-12 reps per set
+- 3-4 sets per exercise
+- 60-90 seconds rest
+- Focus on time under tension
+
+### Strength Building
+- 4-6 reps per set
+- 4-5 sets per exercise
+- 3-5 minutes rest
+- Focus on heavy compound lifts
+
+### Fat Loss
+- 10-15 reps per set
+- 3 sets per exercise
+- 30-60 seconds rest
+- Add cardio on rest days
+
+## GymFlow's PPL Features
+
+GymFlow makes running PPL easy:
+- **Pre-built PPL Templates**: Beginner, intermediate, and advanced
+- **Exercise Database**: 600+ exercises with video demonstrations
+- **Progress Tracking**: Track weights, reps, and personal records
+- **Rest Timer**: Built-in timer for optimal rest periods
+- **Workout History**: See your progress over time
+
+## Nutrition for PPL
+
+Training hard means eating right:
+
+### Protein
+- 1.6-2.2g per kg body weight
+- Essential for muscle recovery and growth
+
+### Carbs
+- 3-5g per kg body weight
+- Fuel for intense training sessions
+
+### Fats
+- 0.8-1g per kg body weight
+- Important for hormone production
+
+### Hydration
+- 3-4 liters of water daily
+- More on training days
+
+## When to Switch from PPL
+
+PPL is great, but you might need a change if:
+- You've been running it for 6+ months without progress
+- You're feeling burnt out or overtrained
+- Your schedule changes and you can't commit to the frequency
+- You want to focus on specific weak points
+
+## The Bottom Line
+
+Push Pull Legs is one of the most effective workout splits for building muscle and strength. It's flexible, balanced, and proven to work.
+
+**Ready to start your PPL journey? Download GymFlow and get AI-generated PPL workouts tailored to your goals.**
+
+---
+
+**Contact:** ragsproai@gmail.com | +91 88260 73013
+    `,
     author: "Raghav Shah",
-    date: "2025-01-08",
-    category: "Fitness Trends",
-    tags: ["Gen-Z", "Fitness Trends", "Mobile Apps", "Gym Culture"],
-    readTime: "5 min read",
-    image: "/blog/gen-z-fitness.jpg",
+    date: "2025-01-20",
+    category: "Workout Programs",
+    tags: ["Push Pull Legs", "PPL", "Workout Split", "Muscle Building", "Strength Training"],
+    readTime: "10 min read",
+    image: "/blog/push-pull-legs.jpg",
   },
-  // ... more blogs
+  {
+    id: "5",
+    slug: "protein-intake-muscle-building",
+    title: "How Much Protein Do You Really Need for Muscle Building?",
+    excerpt: "The ultimate guide to protein intake for muscle growth. Learn optimal amounts, timing, sources, and myths debunked by science.",
+    content: `
+Protein is the building block of muscle, but how much do you actually need? Let's cut through the noise and look at what science says.
+
+## The Science of Protein and Muscle Growth
+
+When you lift weights, you create micro-tears in muscle fibers. Protein provides the amino acids needed to repair and grow these fibers stronger and bigger.
+
+### Key Points:
+- Protein synthesis increases after training
+- Adequate protein intake maximizes muscle growth
+- Too little protein limits gains
+- Too much protein doesn't provide extra benefits
+
+## How Much Protein Do You Need?
+
+### For Muscle Building
+**1.6-2.2g per kg body weight per day**
+
+Example for a 70kg person:
+- Minimum: 112g protein/day
+- Optimal: 140g protein/day
+- Maximum useful: 154g protein/day
+
+### For Fat Loss (Cutting)
+**2.0-2.4g per kg body weight per day**
+
+Higher protein during a cut helps:
+- Preserve muscle mass
+- Increase satiety (feel fuller)
+- Boost metabolism (thermic effect)
+
+### For Maintenance
+**1.2-1.6g per kg body weight per day**
+
+Enough to maintain muscle without focusing on growth.
+
+## Protein Timing: Does It Matter?
+
+### Post-Workout Window
+The "anabolic window" is real but not as strict as once thought.
+
+**What Science Says:**
+- Protein within 2-3 hours post-workout is beneficial
+- Total daily protein matters more than exact timing
+- Pre-workout protein can be just as effective
+
+### Protein Distribution
+Spread protein throughout the day for optimal muscle protein synthesis.
+
+**Ideal Distribution:**
+- 4-5 meals with 25-40g protein each
+- Minimum 20g protein per meal to trigger muscle protein synthesis
+- Include protein before bed (casein is ideal)
+
+## Best Protein Sources
+
+### Animal Sources (Complete Proteins)
+1. **Chicken Breast**: 31g protein per 100g
+2. **Eggs**: 13g protein per 2 large eggs
+3. **Fish (Salmon, Tuna)**: 20-25g per 100g
+4. **Lean Beef**: 26g protein per 100g
+5. **Greek Yogurt**: 10g protein per 100g
+6. **Paneer**: 18g protein per 100g
+
+### Vegetarian Sources
+1. **Dal (Lentils)**: 9g protein per 100g cooked
+2. **Chickpeas**: 19g protein per 100g cooked
+3. **Tofu**: 8g protein per 100g
+4. **Quinoa**: 4g protein per 100g cooked
+5. **Soy Chunks**: 52g protein per 100g dry
+
+### Protein Supplements
+1. **Whey Protein**: Fast-absorbing, ideal post-workout
+2. **Casein Protein**: Slow-absorbing, ideal before bed
+3. **Plant Protein**: Pea, rice, hemp blends for vegetarians
+
+## Protein Myths Debunked
+
+### Myth 1: "More Protein = More Muscle"
+**Truth:** Beyond 2.2g/kg, extra protein doesn't build more muscle. Your body can only use so much.
+
+### Myth 2: "You Can Only Absorb 30g Protein Per Meal"
+**Truth:** Your body can absorb much more. The 30g limit is about maximizing muscle protein synthesis, not absorption.
+
+### Myth 3: "Protein Damages Kidneys"
+**Truth:** High protein is safe for healthy individuals. Only those with pre-existing kidney issues need to limit protein.
+
+### Myth 4: "Plant Protein is Inferior"
+**Truth:** Plant proteins can build muscle effectively when consumed in adequate amounts and variety.
+
+### Myth 5: "You Need Protein Immediately After Training"
+**Truth:** The anabolic window is 2-3 hours, not 30 minutes. Total daily intake matters most.
+
+## Protein for Indian Diets
+
+### Vegetarian Protein Combinations
+Combine incomplete proteins to get all essential amino acids:
+- **Dal + Rice**: Complete protein profile
+- **Roti + Dal**: Complementary amino acids
+- **Paneer + Vegetables**: High-quality protein
+
+### Sample High-Protein Indian Meals
+
+**Breakfast (35g protein):**
+- 4 egg whites + 2 whole eggs
+- 2 slices whole wheat bread
+- 1 glass milk
+
+**Lunch (40g protein):**
+- 150g chicken breast
+- 1 cup dal
+- 2 rotis
+- Vegetables
+
+**Snack (25g protein):**
+- 1 scoop whey protein
+- 1 banana
+- Handful of almonds
+
+**Dinner (35g protein):**
+- 200g paneer
+- Mixed vegetables
+- 1 cup rice
+- Salad
+
+**Before Bed (20g protein):**
+- 1 cup Greek yogurt
+- Or 1 scoop casein protein
+
+## Protein on a Budget
+
+### Affordable High-Protein Foods
+1. **Eggs**: Cheapest complete protein source
+2. **Chicken**: Buy in bulk, freeze portions
+3. **Dal**: Extremely affordable, versatile
+4. **Milk**: Good protein-to-cost ratio
+5. **Peanut Butter**: Calorie-dense with decent protein
+
+### Money-Saving Tips
+- Buy protein powder in bulk
+- Meal prep in advance
+- Use seasonal vegetables
+- Buy frozen chicken
+- Make your own protein bars
+
+## Tracking Protein with GymFlow
+
+GymFlow makes protein tracking effortless:
+- **AI Food Analysis**: Snap a photo, get instant protein content
+- **Macro Calculator**: Personalized protein targets
+- **Meal Logging**: Track daily protein intake
+- **Indian Food Database**: Accurate data for dal, roti, paneer, etc.
+- **Progress Tracking**: See how protein intake affects your gains
+
+## Signs You're Not Getting Enough Protein
+
+1. **Slow Muscle Recovery**: Soreness lasting 3+ days
+2. **Difficulty Building Muscle**: No strength or size gains
+3. **Constant Hunger**: Protein increases satiety
+4. **Frequent Illness**: Protein supports immune function
+5. **Hair Loss**: Protein deficiency affects hair growth
+
+## Protein Supplements: Do You Need Them?
+
+### When Supplements Help
+- Struggling to hit protein targets through food
+- Convenience for post-workout nutrition
+- Traveling or busy schedule
+- Vegetarian with limited protein sources
+
+### When You Don't Need Them
+- Meeting protein targets through whole foods
+- Budget constraints
+- Prefer real food
+- Digestive issues with supplements
+
+## The Bottom Line
+
+For muscle building, aim for **1.6-2.2g protein per kg body weight daily**. Spread it across 4-5 meals, prioritize whole foods, and use supplements for convenience.
+
+**Track your protein effortlessly with GymFlow's AI food analysis. Download now.**
+
+---
+
+**Contact:** ragsproai@gmail.com | +91 88260 73013
+    `,
+    author: "Raghav Shah",
+    date: "2025-01-18",
+    category: "Nutrition",
+    tags: ["Protein", "Muscle Building", "Nutrition", "Diet", "Supplements"],
+    readTime: "12 min read",
+    image: "/blog/protein-guide.jpg",
+  },
 ];
 
-export default blogPosts;
+// Combine all blogs
+// Combine all blogs
+export const allBlogs = [...blogPosts, ...additionalBlogs];
+
+
+export default allBlogs;

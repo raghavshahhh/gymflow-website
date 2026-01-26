@@ -19,7 +19,7 @@ export interface ContainerProps {
   children: React.ReactNode;
   className?: string;
   fullWidth?: boolean;
-  as?: keyof JSX.IntrinsicElements;
+  as?: React.ElementType;
 }
 
 export const Container: React.FC<ContainerProps> = ({

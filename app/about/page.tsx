@@ -133,11 +133,14 @@ export default function AboutPage() {
                 variant="primary"
               />
               <CTAButton
-                label="Download GymFlow"
-                href="/gymflow.apk"
+                label="Contact Us"
+                href="mailto:ragsproai@gmail.com"
                 variant="secondary"
               />
             </div>
+            <p className="text-gray-400 mt-4">
+              📧 ragsproai@gmail.com | 📞 +91 88260 73013
+            </p>
           </div>
         </div>
       </section>

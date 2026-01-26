@@ -46,6 +46,21 @@ export const Footer: React.FC<FooterProps> = ({ content }) => {
             <div className="text-gray-400 text-sm">
               {content.copyright}
             </div>
+            <div className="flex flex-col sm:flex-row items-center gap-2 text-gray-500 text-xs">
+              <a 
+                href="mailto:ragsproai@gmail.com"
+                className="hover:text-gray-300 transition-colors"
+              >
+                📧 ragsproai@gmail.com
+              </a>
+              <span className="hidden sm:inline">•</span>
+              <a 
+                href="tel:+918826073013"
+                className="hover:text-gray-300 transition-colors"
+              >
+                📞 +91 88260 73013
+              </a>
+            </div>
             <motion.a
               href="https://ragspro.com"
               target="_blank"
