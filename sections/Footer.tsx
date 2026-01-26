@@ -20,6 +20,11 @@ export const Footer: React.FC<FooterProps> = ({ content }) => {
     <footer className="w-full bg-zinc-950 text-white py-12 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col gap-8">
+          {/* Logo */}
+          <div className="flex justify-center">
+            <img src="/logo.png" alt="GymFlow Logo" className="h-16 w-16" />
+          </div>
+
           {/* Links */}
           <div className="flex flex-wrap gap-6 justify-center">
             {content.links.map((link) => (

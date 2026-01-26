@@ -14,8 +14,9 @@ export default function TermsPage() {
     <main className="min-h-screen bg-black text-white">
       <header className="border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-6">
-          <Link href="/" className="text-2xl font-bold hover:text-gray-300 transition-colors">
-            GymFlow
+          <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <img src="/logo.png" alt="GymFlow Logo" className="h-10 w-10" />
+            <span className="text-2xl font-bold">GymFlow</span>
           </Link>
         </div>
       </header>
