@@ -1,26 +1,113 @@
 @import "tailwindcss";
 
+/* GymFlow Dark Theme Tokens */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Background Colors */
+  --background-primary: #000000;
+  --background-secondary: #1a1a1a;
+  --background-tertiary: #2a2a2a;
+  
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --text-tertiary: #707070;
+  
+  /* Glass Effect Colors */
+  --glass-background: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  
+  /* Spacing */
+  --section-spacing-desktop: 120px;
+  --section-spacing-mobile: 80px;
+  --container-max-width: 1200px;
+  --gutter: 24px;
+  
+  /* Border Radius */
+  --radius-small: 8px;
+  --radius-medium: 16px;
+  --radius-large: 24px;
+  
+  /* Animation */
+  --duration-fast: 200ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+  --easing-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --easing-smooth: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Background Colors */
+  --color-bg-primary: var(--background-primary);
+  --color-bg-secondary: var(--background-secondary);
+  --color-bg-tertiary: var(--background-tertiary);
+  
+  /* Text Colors */
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  
+  /* Glass Effect */
+  --color-glass-bg: var(--glass-background);
+  --color-glass-border: var(--glass-border);
+  
+  /* Typography */
+  --font-sans: 'SF Pro Display', 'Inter', 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  
+  /* Spacing */
+  --spacing-section-desktop: var(--section-spacing-desktop);
+  --spacing-section-mobile: var(--section-spacing-mobile);
+  --spacing-container: var(--container-max-width);
+  --spacing-gutter: var(--gutter);
+  
+  /* Border Radius */
+  --radius-sm: var(--radius-small);
+  --radius-md: var(--radius-medium);
+  --radius-lg: var(--radius-large);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Glassmorphism utility classes */
+.glass-card {
+  background: var(--glass-background);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Animation utilities */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Hide scrollbar for horizontal scroll */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Smooth scroll snap for mobile cards */
+.scroll-snap-x {
+  scroll-snap-type: x mandatory;
+  scroll-padding: 24px;
+}
+
+.scroll-snap-x > * {
+  scroll-snap-align: start;
 }
