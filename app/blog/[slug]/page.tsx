@@ -93,9 +93,45 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
           {/* Content */}
           <div className="prose prose-invert prose-lg max-w-none">
-            <div className="text-gray-300 leading-relaxed whitespace-pre-line">
-              {post.content}
-            </div>
+            <div 
+              className="text-gray-300 leading-relaxed space-y-6"
+              dangerouslySetInnerHTML={{ 
+                __html: post.content
+                  .split('\n\n')
+                  .map(paragraph => {
+                    // Handle headings
+                    if (paragraph.startsWith('## ')) {
+                      return `<h2 class="text-3xl font-bold text-white mt-12 mb-6">${paragraph.replace('## ', '')}</h2>`;
+                    }
+                    if (paragraph.startsWith('### ')) {
+                      return `<h3 class="text-2xl font-semibold text-white mt-8 mb-4">${paragraph.replace('### ', '')}</h3>`;
+                    }
+                    // Handle bold text
+                    paragraph = paragraph.replace(/\*\*(.*?)\*\*/g, '<strong class="text-white font-semibold">$1</strong>');
+                    // Handle lists
+                    if (paragraph.startsWith('- ')) {
+                      const items = paragraph.split('\n').filter(line => line.startsWith('- '));
+                      return `<ul class="list-disc list-inside space-y-2 ml-4">${items.map(item => 
+                        `<li class="text-gray-300">${item.replace('- ', '')}</li>`
+                      ).join('')}</ul>`;
+                    }
+                    // Handle numbered lists
+                    if (/^\d+\./.test(paragraph)) {
+                      const items = paragraph.split('\n').filter(line => /^\d+\./.test(line));
+                      return `<ol class="list-decimal list-inside space-y-2 ml-4">${items.map(item => 
+                        `<li class="text-gray-300">${item.replace(/^\d+\.\s*/, '')}</li>`
+                      ).join('')}</ol>`;
+                    }
+                    // Handle horizontal rules
+                    if (paragraph === '---') {
+                      return '<hr class="border-white/10 my-8" />';
+                    }
+                    // Regular paragraphs
+                    return `<p class="text-gray-300 leading-relaxed">${paragraph}</p>`;
+                  })
+                  .join('')
+              }}
+            />
           </div>
 
           {/* Tags */}
