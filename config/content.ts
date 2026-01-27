@@ -4,8 +4,8 @@
  * Centralized content management for easy updates and potential localization.
  * All text, links, and content data for the landing page is defined here.
  * 
- * IMPORTANT: APK file should be uploaded to public/downloads/GymFlow-v1.0.apk
- * Download URL: https://gymflow.ragspro.com/downloads/GymFlow-v1.0.apk
+ * IMPORTANT: APK download link points to GitHub releases
+ * https://github.com/raghavshahhh/gym-flow/raw/main/releases/GymFlow-v1.0.0.apk
  * 
  * Requirements: 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 3.1, 3.2, 3.3, 3.4, 6.1, 6.2,
  * 8.1, 8.2, 8.3, 8.4, 8.5, 9.1, 9.2, 10.1, 10.2, 11.1, 11.2, 11.3, 12.1, 12.2
@@ -112,7 +112,7 @@ export const content: LandingPageContent = {
     subheadline: 'Personalized workouts, smart diet plans, and real progress tracking.',
     primaryCTA: {
       label: 'Download APK (Android)',
-      url: 'https://gymflow.ragspro.com/downloads/GymFlow-v1.0.apk', // Direct APK download link
+      url: 'https://github.com/raghavshahhh/gym-flow/raw/main/releases/GymFlow-v1.0.0.apk', // Direct APK download from GitHub
     },
     secondaryCTA: {
       label: 'Watch 30s Demo',
@@ -273,7 +273,7 @@ export const content: LandingPageContent = {
   finalCTA: {
     headline: 'Train smarter. Stay consistent. Get results.',
     ctaLabel: 'Download APK (Android)',
-    ctaUrl: 'https://gymflow.ragspro.com/downloads/GymFlow-v1.0.apk', // Direct APK download link
+    ctaUrl: 'https://github.com/raghavshahhh/gym-flow/raw/main/releases/GymFlow-v1.0.0.apk', // Direct APK download from GitHub
     pricingNote: 'Free to start • iOS version coming soon',
   },
 

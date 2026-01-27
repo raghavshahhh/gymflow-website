@@ -29,7 +29,7 @@ export default function Home() {
                   Contact
                 </Link>
                 <a 
-                  href="https://gymflow.ragspro.com/downloads/GymFlow-v1.0.apk" 
+                  href="https://github.com/raghavshahhh/gym-flow/raw/main/releases/GymFlow-v1.0.0.apk" 
                   className="px-5 py-2 bg-white text-black rounded-full text-sm font-semibold hover:bg-gray-100 transition-all hover:scale-105"
                   download
                 >
