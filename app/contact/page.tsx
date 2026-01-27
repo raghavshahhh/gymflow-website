@@ -31,7 +31,7 @@ export default function ContactPage() {
 
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             {/* Support */}
-            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
+            <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/10 hover:border-white/20 hover:bg-white/10 transition-all duration-300 shadow-xl hover:shadow-2xl">
               <div className="text-4xl mb-4">💬</div>
               <h2 className="text-2xl font-bold mb-3">Support</h2>
               <p className="text-gray-400 mb-6">
@@ -52,7 +52,7 @@ export default function ContactPage() {
             </div>
 
             {/* Business */}
-            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
+            <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/10 hover:border-white/20 hover:bg-white/10 transition-all duration-300 shadow-xl hover:shadow-2xl">
               <div className="text-4xl mb-4">🤝</div>
               <h2 className="text-2xl font-bold mb-3">Business</h2>
               <p className="text-gray-400 mb-6">
@@ -73,7 +73,7 @@ export default function ContactPage() {
             </div>
 
             {/* App Development */}
-            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
+            <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/10 hover:border-white/20 hover:bg-white/10 transition-all duration-300 shadow-xl hover:shadow-2xl">
               <div className="text-4xl mb-4">💻</div>
               <h2 className="text-2xl font-bold mb-3">Build Your App</h2>
               <p className="text-gray-400 mb-6">
@@ -94,7 +94,7 @@ export default function ContactPage() {
             </div>
 
             {/* Social */}
-            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
+            <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/10 hover:border-white/20 hover:bg-white/10 transition-all duration-300 shadow-xl hover:shadow-2xl">
               <div className="text-4xl mb-4">🌐</div>
               <h2 className="text-2xl font-bold mb-3">Connect</h2>
               <p className="text-gray-400 mb-6">
@@ -130,7 +130,7 @@ export default function ContactPage() {
           </div>
 
           {/* Founder Section */}
-          <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-2xl p-8 md:p-12 border border-white/10">
+          <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-white/10 hover:border-white/20 transition-all duration-300 shadow-xl hover:shadow-2xl">
             <h2 className="text-3xl font-bold mb-6">Meet the Founder</h2>
             <div className="space-y-4 text-gray-300 leading-relaxed mb-8">
               <p>

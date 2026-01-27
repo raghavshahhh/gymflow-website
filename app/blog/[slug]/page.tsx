@@ -140,7 +140,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               {post.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="px-3 py-1 bg-white/5 rounded-full text-sm text-gray-400"
+                  className="px-3 py-1 bg-white/5 backdrop-blur-lg rounded-full text-sm text-gray-400 border border-white/10 hover:border-white/20 hover:bg-white/10 transition-all"
                 >
                   #{tag}
                 </span>
@@ -163,7 +163,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           </div>
 
           {/* Author Bio */}
-          <div className="mt-12 bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
+          <div className="mt-12 bg-white/5 backdrop-blur-xl rounded-3xl p-6 border border-white/10 hover:border-white/20 transition-all duration-300 shadow-xl">
             <h3 className="text-xl font-semibold mb-3">About the Author</h3>
             <p className="text-gray-400 leading-relaxed">
               <strong className="text-white">Raghav Shah</strong> is the founder of RagsPro and creator of GymFlow. 

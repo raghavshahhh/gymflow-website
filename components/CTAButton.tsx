@@ -53,8 +53,8 @@ export const CTAButton: React.FC<CTAButtonProps> = ({
 
   // Variant classes with WCAG AA compliant contrast
   const variantClasses = {
-    primary: 'bg-white text-black border-2 border-white hover:bg-gray-100 active:bg-gray-200',
-    secondary: 'bg-transparent text-white border-2 border-white hover:bg-white/10 active:bg-white/20',
+    primary: 'bg-white text-black border-2 border-white hover:bg-gray-100 active:bg-gray-200 shadow-lg hover:shadow-xl',
+    secondary: 'bg-transparent text-white border-2 border-white hover:bg-white/10 active:bg-white/20 backdrop-blur-xl',
   };
 
   // Base classes for all buttons

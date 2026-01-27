@@ -81,28 +81,28 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl font-bold mb-12">What We Stand For</h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
+            <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-6 border border-white/10 hover:border-white/20 hover:bg-white/10 transition-all duration-300 shadow-xl hover:shadow-2xl">
               <h3 className="text-xl font-semibold mb-3">AI-Powered Personalization</h3>
               <p className="text-gray-400">
                 Every user is unique. Our AI creates workout and diet plans tailored specifically to your goals, 
                 experience level, and preferences.
               </p>
             </div>
-            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
+            <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-6 border border-white/10 hover:border-white/20 hover:bg-white/10 transition-all duration-300 shadow-xl hover:shadow-2xl">
               <h3 className="text-xl font-semibold mb-3">Privacy First</h3>
               <p className="text-gray-400">
                 Your data is yours. We prioritize privacy and security in every feature we build. 
                 Offline-first architecture means you're always in control.
               </p>
             </div>
-            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
+            <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-6 border border-white/10 hover:border-white/20 hover:bg-white/10 transition-all duration-300 shadow-xl hover:shadow-2xl">
               <h3 className="text-xl font-semibold mb-3">Built for India</h3>
               <p className="text-gray-400">
                 From vegetarian meal plans to Hindi language support, GymFlow understands Indian users 
                 and their unique fitness needs.
               </p>
             </div>
-            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
+            <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-6 border border-white/10 hover:border-white/20 hover:bg-white/10 transition-all duration-300 shadow-xl hover:shadow-2xl">
               <h3 className="text-xl font-semibold mb-3">Clean & Simple</h3>
               <p className="text-gray-400">
                 No clutter, no distractions. Just a beautiful, Apple-inspired interface that makes 
@@ -117,7 +117,7 @@ export default function AboutPage() {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl font-bold mb-8">Built by RagsPro</h2>
-          <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
+          <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/10 hover:border-white/20 transition-all duration-300 shadow-xl hover:shadow-2xl">
             <p className="text-gray-300 leading-relaxed mb-6">
               <strong className="text-white">RagsPro</strong> is a digital agency founded by Raghav Shah, 
               specializing in building premium mobile and web applications. We combine cutting-edge technology 
