@@ -10,36 +10,38 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-lg border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <img src="/logo.png" alt="GymFlow Logo" className="h-10 w-10" />
-              <span className="text-2xl font-bold">GymFlow</span>
-            </Link>
-            <div className="hidden md:flex items-center gap-8">
-              <Link href="/about" className="text-gray-400 hover:text-white transition-colors text-sm">
-                About
+      <nav className="fixed top-4 left-0 right-0 z-50 px-6">
+        <div className="max-w-6xl mx-auto bg-black/40 backdrop-blur-xl border border-white/10 rounded-full shadow-2xl">
+          <div className="px-6 py-4">
+            <div className="flex items-center justify-between">
+              <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="/logo.png" alt="GymFlow Logo" className="h-9 w-9" />
+                <span className="text-xl font-bold">GymFlow</span>
               </Link>
-              <Link href="/blog" className="text-gray-400 hover:text-white transition-colors text-sm">
-                Blog
-              </Link>
-              <Link href="/contact" className="text-gray-400 hover:text-white transition-colors text-sm">
-                Contact
-              </Link>
-              <Link 
-                href="/gymflow.apk" 
-                className="px-4 py-2 bg-white text-black rounded-full text-sm font-semibold hover:bg-gray-200 transition-colors"
-              >
-                Download
-              </Link>
+              <div className="hidden md:flex items-center gap-6">
+                <Link href="/about" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">
+                  About
+                </Link>
+                <Link href="/blog" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">
+                  Blog
+                </Link>
+                <Link href="/contact" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">
+                  Contact
+                </Link>
+                <Link 
+                  href="/gymflow.apk" 
+                  className="px-5 py-2 bg-white text-black rounded-full text-sm font-semibold hover:bg-gray-100 transition-all hover:scale-105"
+                >
+                  Download
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </nav>
 
       {/* Add padding for fixed nav */}
-      <div className="h-16" />
+      <div className="h-24" />
       
       {/* Hero Section - Above the fold */}
       <HeroSection content={content.hero} />
