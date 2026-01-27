@@ -28,12 +28,13 @@ export default function Home() {
                 <Link href="/contact" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">
                   Contact
                 </Link>
-                <Link 
-                  href="/downloads/GymFlow-v1.0.apk" 
+                <a 
+                  href="https://gymflow.ragspro.com/downloads/GymFlow-v1.0.apk" 
                   className="px-5 py-2 bg-white text-black rounded-full text-sm font-semibold hover:bg-gray-100 transition-all hover:scale-105"
+                  download
                 >
                   Download
-                </Link>
+                </a>
               </div>
             </div>
           </div>

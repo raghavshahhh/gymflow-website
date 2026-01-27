@@ -156,7 +156,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             </p>
             <CTAButton
               label="Download GymFlow"
-              href="/downloads/GymFlow-v1.0.apk"
+              href="https://gymflow.ragspro.com/downloads/GymFlow-v1.0.apk"
               variant="primary"
               size="large"
             />
